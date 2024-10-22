@@ -1,0 +1,44 @@
+%%Excelsior JET v7.6 project file
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-multiapp-
+-splashcloseonawtwindow+
+-splashcloseonclick+
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1207959552
+-inlinelimit=100
+-inlinetolimit=1000
+-javacommandline:=java -jar gb5kv1.jar
+-jetcplastpage:=PageCompile
+-jetrt=Classic
+-jetvmprop=-Djet.jit.fast -Djet.gc.heaplimit:0
+-jpiiproject=C:\wamp\www\fivek\CRIB_5K.jpn
+-main=com/Fivestart
+-outputdir=.
+-outputname=CRIB_5K
+-saprofmode=NONE
+-splash=C:/Documents and Settings/Compaq_Owner/Desktop/fiftyK/0209.jpg
+-stacklimit=900000
+
+
+
+
+!classpathentry ./gb5kv1.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
+
+!module C:/Documents and Settings/Compaq_Owner/Desktop/fiftyK/startStone7.ico
+!module ./CRIB_5K.usg
+

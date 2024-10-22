@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Mar 19 23:20:13 EDT 2012
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=C\:\\wamp\\www\\fivek\\gb5kv1.jar
+manifest.mergeall=true
+manifest.mainclass=com.Fivestart
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=src/com/dice/images/startStone4.gif,src/com/dice/images/stone1.gif
+excludes=
+includes=

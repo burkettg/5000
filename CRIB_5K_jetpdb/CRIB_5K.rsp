@@ -1,0 +1,40 @@
+-jetcomponent=7.60
+-jetedition=Standard
+-vcode=27
+-sys=W
+-nosmart
+-zimer=0
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.jit.fast -Djet.gc.heaplimit:0
+-config=ClassPath:gb5kv1.jar
+-config=JETProfile:27
+-config=JETProfileName:1.6.0_27
+-config=RuntimeKind:CLASSIC
+-EmbeddedFileSys=C:/wamp/www/fivek/CRIB_5K_jetpdb/CRIB_5K.efs
+-config=MainClass:com/Fivestart
+-config=VersionInfo:jet-760-release (std, en)
+-config=CompatibilityString:1.6.0_27 (binary compatibility level 0)
+-name=CRIB_5K.exe
+
+-entry=ExeEntryPoint
+
+
+-config=HaveSplash:1
+-config=SplashCloseOnTitle:
+-config=SplashCloseOnAWTWindow:1
+-config=SplashCloseOnClick:1
+-LinkFileAsRData=LINK_SplashPicture:C:/Documents and Settings/Compaq_Owner/Desktop/fiftyK/0209.jpg
+
+
+C:\jet7.6-std\lib\x86\startup-exe-splash.zip
+
+-config=PackagingOptions:dlls=java;net;nio;awt;fontmanager;zip component_microversions=BC-0
+C:\wamp\www\fivek\CRIB_5K_jetpdb\obj.zip
+-Config=RTComponent:XKRN76027.dll
+C:\jet7.6-std\lib\x86\startup-rtlink.zip
+C:\jet7.6-std\lib\x86\import32.lib
+C:\Documents and Settings\Compaq_Owner\Desktop\fiftyK\startStone7.ico
+C:\jet7.6-std\lib\x86\app.res
+-StrictLinkToDLL
+
